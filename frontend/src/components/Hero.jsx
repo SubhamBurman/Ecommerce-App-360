@@ -8,12 +8,12 @@ const Hero = () => {
         <div className='w-full sm:w-1/2 flex items-center justify-center py-10 sm:py-0'>
         <div className='text-[#414141]'>
             <div className='flex items-center gap-2'>
-                 <p className='w-8 md:w-11 h-[2px] bg-[#414141]'></p>
-                 <p className='font-medium text-sm md:text-base'> OUR BEST SELLERS</p>
+                 {/* <p className='w-8 md:w-11 h-[2px] bg-[#414141]'></p> */}
+                 <p className='font-medium text-sm md:text-base'> FIND ALL YOUR</p>
             </div>
-            <h1 className='prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed'>Latest Arrivals</h1>
+            <h1 className='prata-regular text-3xl sm:py-3 lg:text-4xl leading-relaxed text-transparent bg-clip-text bg-gradient-to-r from-[#00214D] to-[#FF5F5F] font-bold'>BILLING SOLUTIONS</h1>
             <div className='flex items-center gap-2'>
-                <p className='font-semibold text-sm md:text-base'>SHOP NOW</p>
+                <p className='font-semibold text-sm md:text-base'>AT ONE PLACE</p>
                 <p className='w-10 md:w-14 h-[2px] bg-[#414141]'></p>
 
             </div>
